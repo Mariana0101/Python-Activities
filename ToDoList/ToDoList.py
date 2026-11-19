@@ -1,3 +1,16 @@
+"""
+To-Do List Application
+
+A small Python project with a user interface
+that allows users to manage pending and completed tasks.
+
+Features:
+- Add new tasks
+- Display pending tasks
+- Mark tasks as complete
+- Display completed tasks
+- Validate empty inputs and duplicate entries
+"""
 class ToDoList:
     def __init__(self):
         self.tasks = []

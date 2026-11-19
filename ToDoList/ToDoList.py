@@ -10,6 +10,7 @@ Features:
 - Mark tasks as complete
 - Display completed tasks
 - Validate empty inputs and duplicate entries
+- Make multiple lists and switch between them
 """
 class ToDoList:
     def __init__(self):

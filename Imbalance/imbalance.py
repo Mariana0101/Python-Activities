@@ -36,3 +36,15 @@ def min_imbalance_after_removal(nums):
         if imb < smallest:
             smallest = imb
     return smallest
+
+while True:
+    print("Find the smallest imbalance")
+    inpt = input("Input the list of numbers: ")
+    if inpt == '':
+        print("Exited")
+        break
+    parts = inpt.replace(',', ' ').split()
+    nums = [int(i) for i in parts]
+    smallest = min_imbalance_after_removal(nums)
+    print("Smallest imbalance: ", smallest)
+    
